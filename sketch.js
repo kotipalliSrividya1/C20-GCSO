@@ -6,7 +6,7 @@ function setup() {
   ground=createSprite(1200,200,60,400);
   ground.shapeColor=color(80,80,80);
   weight=random(400,1500);
-  speed=random(30,95);
+  speed=random(5,10);
   car.velocityX=speed;
 }
 function draw() {
