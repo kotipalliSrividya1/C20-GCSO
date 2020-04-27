@@ -7,7 +7,7 @@ function setup() {
   ground.shapeColor=color(80,80,80);
   weight=random(400,1500);
   speed=random(30,95);
-  car.velocityX=15;
+  car.velocityX=speed;
 }
 function draw() {
   background("blue");  
